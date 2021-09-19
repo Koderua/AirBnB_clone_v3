@@ -29,6 +29,7 @@ def states_no_id():
         new_object.save()
         return jsonify(new_object.to_json()), 201
 
+
 @app_views.route('/states/<state_id>', methods=['GET', 'DELETE', 'PUT'])
 def states_with_id(state_id=None):
     """
