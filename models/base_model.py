@@ -7,7 +7,8 @@ from datetime import datetime
 import models
 from os import getenv
 import sqlalchemy
-from sqlalchemy import Column, String, DateTime
+import sqlalchemy.Column as Column
+from sqlalchemy import String, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 import uuid
 
