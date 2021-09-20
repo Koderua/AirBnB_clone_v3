@@ -18,8 +18,10 @@ import unittest
 def getJson(response):
     """
     Extract the json dictionary from a flask Response object
+    
     Argument:
         response: a reponse object from Flask
+        
     Return:
         a dictionary or None or maybe raise an exception
     """
